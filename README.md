@@ -40,6 +40,3 @@
     - 接口隔离原则 (Interface Segregation Principle)
     - 里氏代换原则 (Liskov Substitution Principle)
     - 迪米特法则 (Law of Demeter)
-    
-5. ppt/ 文档资料
-
