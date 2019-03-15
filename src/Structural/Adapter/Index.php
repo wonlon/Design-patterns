@@ -5,7 +5,7 @@
  * Date: 2018-5-25
  * Time: 14:46
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 //开始使用的中国天气网的天气
 

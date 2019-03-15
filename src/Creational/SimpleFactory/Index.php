@@ -6,7 +6,7 @@
  * Time: 11:51
  */
 
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 //1.简单工厂也是静态工厂
 //2.setSome与上述的构造函数的作用差不多
 //3.只有一个createDb静态区，多进程访问，需要等待，内存减少，但是，有串行排队

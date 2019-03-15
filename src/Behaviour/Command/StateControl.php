@@ -5,7 +5,7 @@
  *
  * @category VNNOX-PHP
  * @package  NovaStar\Vnnox
- * @author   李磊磊 <kinddylee@gmail.com>
+ * @author   wonlon <wonlon@gmail.com>
  * @license  http://www.apache.org/licenses/LICENSE-2.0.html Apache Public License
  * @link     http://www.vnnox.com/
  * @time     2018/10/30 5:11 PM
@@ -23,7 +23,7 @@ namespace DesignPattern\Behaviour\Command;
  *
  * @category VNNOX-PHP
  * @package  DesignPattern\Behaviour\Command
- * @author   李磊磊 <kinddylee@gmail.com>
+ * @author   wonlon <wonlon@gmail.com>
  * @license  http://www.apache.org/licenses/LICENSE-2.0.html Apache Public License
  * @link     http://www.vnnox.com/ (如果类中有相关引用,请修改此联系,如果有多个引用则添加多个`@link`)
  */

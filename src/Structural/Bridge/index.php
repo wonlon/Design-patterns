@@ -5,7 +5,7 @@
  * Date: 2018-7-3
  * Time: 14:31
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 $speedRoad = new \DesignPattern\Structural\Bridge\SpeedRoad();
 $speedRoad->icar = new \DesignPattern\Structural\Bridge\SuvCar();
 $speedRoad->Run();

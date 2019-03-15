@@ -1,7 +1,7 @@
 <?php
 
 
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 $chinaOSSFactory = new DesignPattern\Homework\Guomengting\Structural\Flyweight\ChinaOSSFlyweightFactory();
 $devOSS1 = $chinaOSSFactory->getInstance("dev_buket");

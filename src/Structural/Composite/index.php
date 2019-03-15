@@ -5,7 +5,7 @@
  * Date: 2018-7-3
  * Time: 14:31
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 $p1 = new \DesignPattern\Structural\Composite\Playlist("p1");
 $p1_1 = new \DesignPattern\Structural\Composite\Playlist("p1_1");
 

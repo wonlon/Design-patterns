@@ -6,7 +6,7 @@
  * Time: 12:37
  */
 
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 $factory = new \DesignPattern\Creational\FactoryMethod\MysqlFactory();
 $db = $factory->createDb();
 $db->conn();

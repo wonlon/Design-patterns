@@ -5,7 +5,7 @@
  * Date: 2018-5-21
  * Time: 17:10
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 $director = new \DesignPattern\Creational\Builder\Director();
 echo "蓝鸟的组成：<hr/>";

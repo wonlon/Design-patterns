@@ -5,7 +5,7 @@
  * Date: 2018-5-19
  * Time: 16:45
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 echo "===================浅拷贝==============================".PHP_EOL;
 $dog = new \DesignPattern\Creational\Prototype\Dog("小白");

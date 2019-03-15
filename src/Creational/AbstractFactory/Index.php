@@ -5,7 +5,7 @@
  * Date: 2018-5-18
  * Time: 13:02
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 //创建IOS的产品簇
 $iosFactory = new \DesignPattern\Creational\AbstactFactory\Factory\IosFactory();

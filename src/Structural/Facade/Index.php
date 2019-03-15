@@ -5,7 +5,7 @@
  * Date: 2018-5-22
  * Time: 16:35
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 //获取子清单的时长和子清单的id
 $subPlaylist = new \DesignPattern\Structural\Facade\SubPlaylist();

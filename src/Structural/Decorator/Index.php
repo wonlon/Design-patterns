@@ -5,7 +5,7 @@
  * Date: 2018-5-17
  * Time: 16:35
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 $Art = new  \DesignPattern\Structural\Decorator\Art();
 

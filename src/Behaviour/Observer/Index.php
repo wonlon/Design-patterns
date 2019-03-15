@@ -5,7 +5,7 @@
  * Date: 2018-5-25
  * Time: 14:46
  */
-require '../../../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
 //三个播放器观察者
 $player1 = new \DesignPattern\Behaviour\Observer\PlayerObserver(1);
