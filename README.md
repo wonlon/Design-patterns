@@ -1,6 +1,6 @@
 # PHP Design Pattern
 
-基于PHP的设计模式课程源代码示例
+基于PHP的设计模式源代码示例
 
 ### 目录结构
 
