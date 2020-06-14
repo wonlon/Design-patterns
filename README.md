@@ -32,6 +32,8 @@
     - 模版模式 (Template Pattern)
     - 备忘录模式 (Memento Pattern)
     - 访问者模式 (Visitor Pattern)
+    - 迭代器模式(Iterator Pattern)
+    - 解释器模式(Interpreter Pattern)
     
 4. Src/Principle/ 面向对象设计原则
     - 单一职责原则 (Single Responsibility Principle)
