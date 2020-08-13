@@ -14,6 +14,7 @@ require __DIR__ . '/../../../vendor/autoload.php';
 \DesignPattern\Creational\SimpleFactory\Factory::setSome();
 $db = \DesignPattern\Creational\SimpleFactory\Factory::createDb("mysql");
 $db->conn();
+
 \DesignPattern\Creational\SimpleFactory\Factory::setSome();
 $db = \DesignPattern\Creational\SimpleFactory\Factory::createDb("litesql");
 $db->conn();

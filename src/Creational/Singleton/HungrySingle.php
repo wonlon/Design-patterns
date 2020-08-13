@@ -22,7 +22,7 @@ class HungrySingle
 
 
     //PHP没有
-    //private static final $newInstance = new HungrySingle();
+//    private static final $newInstance = new HungrySingle();
 
     final protected  function __construct()
     {

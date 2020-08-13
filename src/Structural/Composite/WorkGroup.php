@@ -2,28 +2,33 @@
 /**
  * Created by PhpStorm.
  * Date: 2018/6/21
- * Time: 上午10:04
+ * Time: 上午10:03
  */
 
 namespace DesignPattern\Structural\Composite;
 
 
-class Media implements Component
+class WorkGroup implements Component
 {
     /**
+     * @var array
+     */
+    private $list = [];
+
+    /**
      * @var string
+     * 工作组名称
      */
     private $name = '';
 
     /**
-     * Media constructor.
+     * WorkGroup constructor.
      * @param string $name
      */
     public function __construct($name)
     {
         $this->name = $name;
     }
-
 
     /**
      * display
@@ -43,7 +48,7 @@ class Media implements Component
      */
     public function add(Component $component)
     {
-        echo '媒体不支持添加子元素操作' . PHP_EOL;
+        $this->list[spl_object_hash($component)] = $component;
     }
 
     /**
@@ -55,18 +60,19 @@ class Media implements Component
      */
     public function remove(Component $component)
     {
-        echo '媒体不支持删除子元素操作' . PHP_EOL;
+        if (isset($this->list[spl_object_hash($component)]))
+            unset($this->list[spl_object_hash($component)]);
     }
 
     /**
      * getChild
      * 获取子元素
-     * @return mixed
+     * @return array
      * Author:kinddylee@gmail.com
      */
     public function getChild() : array
     {
-        echo '媒体不支持获取子元素操作' . PHP_EOL;
+        return $this->list;
     }
 
 }

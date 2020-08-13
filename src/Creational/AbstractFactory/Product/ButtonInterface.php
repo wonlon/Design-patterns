@@ -6,7 +6,7 @@
  * Time: 12:53
  */
 
-namespace DesignPattern\Creational\AbstactFactory\Product;
+namespace DesignPattern\Creational\AbstractFactory\Product;
 
 
 interface ButtonInterface

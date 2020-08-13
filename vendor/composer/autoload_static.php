@@ -6,174 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit296b6c023bba07a17e945352d6cec62d
 {
-    public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..',
-        'abede361264e2ae69ec1eee813a101af' => __DIR__ . '/..',
-        '21a5860fbef5be28db5ddfbc3cca67c4' => __DIR__ . '/..',
-        '1546e3f9d127f2a9bb2d1b6c31c26ef1' => __DIR__ . '/..',
-        'd2516f7f4fba5ea5905f494b4a8262e0' => __DIR__ . '/..',
-        '4511163d560956219b96882c0980b65e' => __DIR__ . '/..',
-        'c361f5616dc2a8da4fa3e137077cd4ea' => __DIR__ . '/..',
-        '02d68920fc98da71991ce569c91df0f6' => __DIR__ . '/..',
-        '88e19525eae308b4a6aa3419364875d3' => __DIR__ . '/..',
-        '60e8e2d0827b58bfc904f13957e51849' => __DIR__ . '/..',
-        '13d2f040713999eab66c359b4d79871d' => __DIR__ . '/..',
-        '838ab38beb32c68a79d3cd2c007d5a04' => __DIR__ . '/..',
-        'bb28eccd0f8f008333a1b3c163d604ac' => __DIR__ . '/..',
-        '9e483de83558c98f7d3feaa402c78cb3' => __DIR__ . '/..',
-        '36b74b5b765ded91ee58c8ee3c0e85e3' => __DIR__ . '/..',
-        '05c15ee9510da7fd6bf6136f436500c0' => __DIR__ . '/..',
-        'd3208dfbce2505e370788f9f22f6785f' => __DIR__ . '/..',
-        '141cf1fb3a3046f8b64534b0ebab33ca' => __DIR__ . '/..',
-        'be660df75fd0dbe7fa7c03b7434b3294' => __DIR__ . '/..',
-        '01e31ea298a51bc9e91517e3ce6b9e76' => __DIR__ . '/..',
-        '803ddd97f7b1da68982a7b087c3476f6' => __DIR__ . '/..',
-        '3001cdfd101ec3c32da34ee43c2e149b' => __DIR__ . '/..',
-        '77b2d7629ef2a93fabb8c56754a91051' => __DIR__ . '/..',
-        '4a4471296dec796c21d4f4b6552396a9' => __DIR__ . '/..',
-        'c3e9897e1744b88deb56fcdc39d34d85' => __DIR__ . '/..',
-        'a83cacf2de942cff288de15a83afd26d' => __DIR__ . '/..',
-        '6a861dacc9ee2f3061241d4c7772fa21' => __DIR__ . '/..',
-        '4d2522d968c8ba78d6c13548a1b4200e' => __DIR__ . '/..',
-        'fd587ca933fc0447fa5ab4843bdd97f7' => __DIR__ . '/..',
-        '383ef01c62028fc78cd4388082fce3c2' => __DIR__ . '/..',
-        '150fbd1b95029dc47292da97ecab9375' => __DIR__ . '/..',
-        '549abd9bae174286d660bdaa07407c68' => __DIR__ . '/..',
-        '6bfbf5eaea6b17a0ed85cb21ba80370c' => __DIR__ . '/..',
-        '22efe13f1a497b8e199540ae2d9dc59c' => __DIR__ . '/..',
-        'e90135ab8e787795a509ed7147de207d' => __DIR__ . '/..',
-        'bb0a7923ffc6a90919cd64ec54ff06bc' => __DIR__ . '/..',
-        '2d302f32ce0fd4e433dd91c5bb404a28' => __DIR__ . '/..',
-        '24dd4658a952171a4ee79218c4f9fd06' => __DIR__ . '/..',
-        'e49b7876281d6f5bc39536dde96d1f4a' => __DIR__ . '/..',
-        '47596e02b43cd6da7700134fd08f88cf' => __DIR__ . '/..',
-        '883af48563631547925fa4c3b48ead07' => __DIR__ . '/..',
-        'f190e3308e6ca23234a2875edc985c03' => __DIR__ . '/..',
-        'ac9e33ce6841aa5bf5d16d465a2f03a7' => __DIR__ . '/..',
-        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..',
-    );
-
     public static $prefixLengthsPsr4 = array (
-        'S' => 
-        array (
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Component\\Debug\\' => 24,
-            'Symfony\\Component\\Console\\' => 26,
-        ),
-        'P' => 
-        array (
-            'Psr\\SimpleCache\\' => 16,
-            'Psr\\Log\\' => 8,
-            'PhpOffice\\PhpSpreadsheet\\' => 25,
-        ),
-        'M' => 
-        array (
-            'MongoDB\\' => 8,
-        ),
         'D' => 
         array (
-            'Doctrine\\Instantiator\\' => 22,
-            'Doctrine\\Common\\Cache\\' => 22,
-            'Doctrine\\Common\\Annotations\\' => 28,
-            'Doctrine\\Common\\' => 16,
             'DesignPattern\\' => 14,
-        ),
-        'C' => 
-        array (
-            'Curl\\' => 5,
-            'Complex\\' => 8,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Symfony\\Component\\Debug\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Symfony\\Component\\Console\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Psr\\SimpleCache\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Psr\\Log\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'PhpOffice\\PhpSpreadsheet\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'MongoDB\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Doctrine\\Instantiator\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Doctrine\\Common\\Cache\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Doctrine\\Common\\Annotations\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Doctrine\\Common\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
         'DesignPattern\\' => 
         array (
-            0 => __DIR__ . '/../Design-psrcerns',
+            0 => __DIR__ . '/../..' . '/src',
         ),
-        'Curl\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-        'Complex\\' => 
-        array (
-            0 => __DIR__ . '/..',
-        ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'D' => 
-        array (
-            'Doctrine\\ORM\\' => 
-            array (
-                0 => __DIR__ . '/..',
-            ),
-            'Doctrine\\DBAL\\' => 
-            array (
-                0 => __DIR__ . '/..',
-            ),
-            'Doctrine\\Common\\Lexer\\' => 
-            array (
-                0 => __DIR__ . '/..',
-            ),
-            'Doctrine\\Common\\Inflector\\' => 
-            array (
-                0 => __DIR__ . '/..',
-            ),
-            'Doctrine\\Common\\Collections\\' => 
-            array (
-                0 => __DIR__ . '/..',
-            ),
-        ),
-    );
-
-    public static $classMap = array (
-        'Cz\\Git\\GitException' => __DIR__ . '/..',
-        'Cz\\Git\\GitRepository' => __DIR__ . '/..',
-        'Cz\\Git\\IGit' => __DIR__ . '/..',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -181,8 +25,6 @@ class ComposerStaticInit296b6c023bba07a17e945352d6cec62d
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit296b6c023bba07a17e945352d6cec62d::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit296b6c023bba07a17e945352d6cec62d::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit296b6c023bba07a17e945352d6cec62d::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit296b6c023bba07a17e945352d6cec62d::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -15,5 +15,6 @@ class Dbmysql implements DbInterface
     function conn()
     {
         // TODO: Implement conn() method.
+        echo "连接上了mysql".PHP_EOL;
     }
 }

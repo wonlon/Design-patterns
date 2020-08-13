@@ -6,7 +6,7 @@
  * Time: 12:51
  */
 
-namespace DesignPattern\Creational\AbstactFactory\Factory;
+namespace DesignPattern\Creational\AbstractFactory\Factory;
 
 
 interface Factory

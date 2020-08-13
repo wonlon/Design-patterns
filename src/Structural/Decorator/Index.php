@@ -16,7 +16,7 @@ $SeoArt = new  \DesignPattern\Structural\Decorator\SeoArt($EditArt);
 
 $SeoArt->decorator();
 
-echo "==================================================================================";
+echo "==================================================================================".PHP_EOL;
 //增加SEO
 $SeoArt = new  \DesignPattern\Structural\Decorator\SeoArt($Art);
 //小编审核，增加备注等信息

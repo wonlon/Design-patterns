@@ -56,6 +56,6 @@ class Dog implements Prototye
     public function shallowCopy()
     {
         // TODO: Implement shallowCopy() method.
-        return new Dog('xxx');
+        return $this;
     }
 }

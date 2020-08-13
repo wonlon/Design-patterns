@@ -6,7 +6,7 @@
  * Time: 12:57
  */
 
-namespace DesignPattern\Creational\AbstactFactory\Product;
+namespace DesignPattern\Creational\AbstractFactory\Product;
 
 
 class IosPanel implements PanelInterface

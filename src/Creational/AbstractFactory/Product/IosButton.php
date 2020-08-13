@@ -6,11 +6,17 @@
  * Time: 12:56
  */
 
-namespace DesignPattern\Creational\AbstactFactory\Product;
+namespace DesignPattern\Creational\AbstractFactory\Product;
 
 
 class IosButton implements ButtonInterface
 {
+    public function __construct()
+    {
+        $this->down();
+        $this->up();
+    }
+
     public function down()
     {
         // TODO: Implement down() method.

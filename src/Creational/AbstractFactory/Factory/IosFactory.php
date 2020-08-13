@@ -6,11 +6,11 @@
  * Time: 12:59
  */
 
-namespace DesignPattern\Creational\AbstactFactory\Factory;
+namespace DesignPattern\Creational\AbstractFactory\Factory;
 
 
-use DesignPattern\Creational\AbstactFactory\Product\IosButton;
-use DesignPattern\Creational\AbstactFactory\Product\IosPanel;
+use DesignPattern\Creational\AbstractFactory\Product\IosButton;
+use DesignPattern\Creational\AbstractFactory\Product\IosPanel;
 
 class IosFactory implements Factory
 {

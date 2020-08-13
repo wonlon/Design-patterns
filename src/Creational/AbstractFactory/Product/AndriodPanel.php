@@ -6,7 +6,7 @@
  * Time: 12:59
  */
 
-namespace DesignPattern\Creational\AbstactFactory\Product;
+namespace DesignPattern\Creational\AbstractFactory\Product;
 
 
 class AndriodPanel implements PanelInterface

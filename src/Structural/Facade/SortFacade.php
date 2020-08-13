@@ -33,14 +33,11 @@ class SortFacade
      * @param FatherPlaylist $fatherPlaylist
      * @param SortAlgorithm $sortAlgorithm
      */
-    public function __construct(
-        SubPlaylist $subPlaylist,
-        FatherPlaylist $fatherPlaylist,
-        SortAlgorithm $sortAlgorithm)
+    public function __construct()
     {
-        $this->subPlaylist = $subPlaylist;
-        $this->fatherPlaylist = $fatherPlaylist;
-        $this->sortAlgorithm = $sortAlgorithm;
+        $this->subPlaylist = new SubPlaylist();
+        $this->fatherPlaylist = new FatherPlaylist();
+        $this->sortAlgorithm = new SortAlgorithm();
     }
 
     /**

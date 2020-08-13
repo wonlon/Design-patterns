@@ -3,12 +3,16 @@
 
 require __DIR__ . '/../../../vendor/autoload.php';
 
-$chinaOSSFactory = new DesignPattern\Homework\Guomengting\Structural\Flyweight\ChinaOSSFlyweightFactory();
-$devOSS1 = $chinaOSSFactory->getInstance("dev_buket");
-$devOSS2 = $chinaOSSFactory->getInstance("dev_buket");
+$wsFactory = new \DesignPattern\Structural\Flyweight\WebSocketConfigFlyweightFactory();
+$devWS1 = $wsFactory->getInstance("dev_buket", "8000");
+$devWS2 = $wsFactory->getInstance("dev_buket","8000");
 
-var_dump($devOSS1===$devOSS2);
+var_dump($devWS1===$devWS2);
+//修改外蕴属性
+$devWS3 = $devWS1->changeHost('test_buket');
 
-$testOSS = $chinaOSSFactory->getInstance("test_buket2");
+//构建新属性
+$testWS = $wsFactory->getInstance("test_buket2", "8002");
 
-var_dump($devOSS1===$testOSS);
+var_dump($devWS1===$devWS3);
+var_dump($devWS1===$testWS);

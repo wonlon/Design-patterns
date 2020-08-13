@@ -6,7 +6,7 @@
  * Time: 13:01
  */
 
-namespace DesignPattern\Creational\AbstactFactory\Factory;
+namespace DesignPattern\Creational\AbstractFactory\Factory;
 
 
 use DesignPattern\Creational\AbstactFactory\Product\AndriodButton;

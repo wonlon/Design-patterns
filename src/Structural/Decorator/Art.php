@@ -16,6 +16,6 @@ class Art implements ArtInterface {
      */
     public function decorator()
     {
-        echo  '人民日报';
+        echo  '我是一篇草稿'.PHP_EOL;
     }
 }

@@ -18,25 +18,26 @@ class WebSocketConfigFlyweightFactory {
     private $objectPool = [];
 
     /**
+     * Function:getInstance
      * 获取享元对象
+     *
      * @param string $host
-     * @param string $accessId
-     * @param string $secret
+     * @param string $port
+     *
+     *
      * @return WebSocketConfig|mixed
      */
-    public function getInstance($host = '', $accessId = '', $secret = '')
+    public function getInstance($host = '', $port = '')
     {
-        $key = md5($host.$accessId.$secret);
+        $key = $host.$port;
         if (!isset($this->objectPool[$key])) {
             $webSocketConfig = new WebSocketConfig();
             $webSocketConfig->setHost($host);
-            $webSocketConfig->setAccessId($accessId);
-            $webSocketConfig->setSecret($secret);
-            $webSocketConfig->setPort();
+            $webSocketConfig->setPort($port);
             $this->objectPool[$key] = $webSocketConfig;
             return $webSocketConfig;
         } else {
-            return $this->objectPool[$host.$accessId.$secret];
+            return $this->objectPool[$host.$port];
         }
     }
 }

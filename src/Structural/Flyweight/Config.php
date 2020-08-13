@@ -12,24 +12,13 @@ namespace DesignPattern\Structural\Flyweight;
 interface Config {
 
     /**
-     * 设置host
-     * @param string $host
+     * Function:changeHost
+     * 改变外蕴状态
+     *
+     * @param String $host
+     *
      * @return mixed
      */
-    public function setHost($host = '');
-
-    /**
-     * 设置AccessId
-     * @param string $accessId
-     * @return mixed
-     */
-    public function setAccessId($accessId = '');
-
-    /**
-     * 设置Secret
-     * @param string $secret
-     * @return mixed
-     */
-    public function setSecret($secret = '');
+    public function changeHost($host);
 
 }

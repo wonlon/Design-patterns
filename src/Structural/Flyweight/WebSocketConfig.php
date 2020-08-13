@@ -11,31 +11,30 @@ namespace DesignPattern\Structural\Flyweight;
 
 class WebSocketConfig implements Config {
 
-    private $port = 8010;
+    /**
+     * @var string 内蕴状态
+     */
+    private $port;
+    /**
+     * @var string 外蕴状态
+     */
     private $host;
-    private $accessId;
-    private $secret;
+
+
     public function setHost($host = '')
     {
         // TODO: Implement setHost() method.
         $this->host = $host;
     }
 
-    public function setAccessId($accessId = '')
+    public function setPort($port)
     {
-        // TODO: Implement setAccessId() method.
-        $this->accessId = $accessId;
+        $this->port = $port;
     }
 
-    public function setSecret($secret = '')
-    {
-        // TODO: Implement setSecret() method.
-        $this->secret = $secret;
-    }
-
-    public function setPort()
-    {
-        return $this->port;
+    public function changeHost($host){
+        $this->host = $host;
+        return $this;
     }
 
 }
